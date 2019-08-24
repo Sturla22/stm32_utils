@@ -123,7 +123,7 @@ if __name__ == "__main__":
     ram = data + bss
 
     if max_flash or max_ram:
-        print("Region\tUsed\tSize\tLevel")
+        print("Region\tUsed\tSize\tPercentage")
         if max_flash:
             print_region("Flash", flash, max_flash)
         if max_ram:
