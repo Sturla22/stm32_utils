@@ -2,7 +2,9 @@
 """
 Calculate used Flash and RAM in a given stm32 application.
 
-Copyright Sturla Lange 2019
+Author: Sturla Lange
+Date: 2019-08-24
+Licence: MIT
 """
 import sys
 import argparse
